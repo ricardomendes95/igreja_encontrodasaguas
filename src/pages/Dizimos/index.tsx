@@ -1,7 +1,6 @@
 import React from 'react'
 
 import * as S from './styles'
-import { message } from 'antd'
 import Header from '../../components/Header'
 import Baseboard from '../../components/Baseboard'
 import Pix from '../../assets/pix.svg'
@@ -9,9 +8,6 @@ import Caixa from '../../assets/caixa.svg'
 import Picpay from '../../assets/picpay.svg'
 
 export default function Dizimos() {
-  function handleCopyPix() {
-    message.success('This is a success message')
-  }
   return (
     <S.Container>
       <Header />
@@ -30,7 +26,7 @@ export default function Dizimos() {
         </S.Info>
         <S.Card>
           <S.Pix src={Pix} alt="pix" />
-          <h3 onClick={handleCopyPix}>Chave: 10.462.948/0001-12</h3>
+          <h3>Chave: 10.462.948/0001-12</h3>
           <p>
             Atenção: o Nome que irá aperecer, é Ministério Águas do Trono (que é
             o atingo nome da nossa igreja) mas a conta pertence a Encontro das
