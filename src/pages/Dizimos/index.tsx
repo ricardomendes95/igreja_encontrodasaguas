@@ -22,20 +22,20 @@ export default function Dizimos() {
         </S.Card>
         <S.Info>
           <h3>FORMAS DE CONTRIBUIR</h3>
-          <span>Tranferêcia online/ Depósitos/ PicPay</span>
+          <span>Transferência online/ Depósitos/ PicPay</span>
         </S.Info>
         <S.Card>
           <S.Pix src={Pix} alt="pix" />
           <h3>Chave: 10.462.948/0001-12</h3>
           <p>
             Atenção: o Nome que irá aperecer, é Ministério Águas do Trono (que é
-            o atingo nome da nossa igreja) mas a conta pertence a Encontro das
+            o antigo nome da nossa igreja) mas a conta pertence a Encontro das
             Águas
           </p>
         </S.Card>
         <S.Card>
           <S.Caixa src={Caixa} alt="Caixa" />
-          <p> AGÊNCIA: 0051 / OPERAÇÃO: 013</p>
+          <p>AGÊNCIA: 0051 / OPERAÇÃO: 013</p>
           <p>CONTA-POUPANÇA: 00033020-5</p>
           <p>CNPJ: 10.462.948/0001-12</p>
         </S.Card>
@@ -44,7 +44,7 @@ export default function Dizimos() {
             <S.Picpay src={Picpay} alt="Caixa" />
           </a>
           <p>Clique na logo do PicPay que você</p>
-          <p>sera direcionado para o aplicativo.</p>
+          <p>será direcionado para o aplicativo.</p>
           <a href="https://app.picpay.com/user/igreja.encontro.das.aguas">
             ou clique Aqui
           </a>

@@ -2,18 +2,12 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  /* align-items: center;
-  flex-direction: column; */
   position: relative;
   width: 100vw;
 `
 export const Menu = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
-
-  /* padding-top: 90px; */
-
   width: 100vw;
   height: 90px;
   background: rgba(28, 75, 92, 1);
